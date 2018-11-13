@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @Configuration
 @EnableTransactionManagement(proxyTargetClass = true)
-@EnableJpaRepositories(basePackages = "dsy.repository")
+@EnableJpaRepositories(basePackages = "dsy.repositoty")
 @EntityScan(basePackages = "dsy.AllBean")
 public class JpaConfiguration {
     @Bean
