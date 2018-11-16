@@ -1,7 +1,7 @@
-package dsy.AllService;
+package dsy.service;
 
-import dsy.AllBean.User;
-import dsy.repositoty.UserRepositoty;
+import dsy.entity.User;
+import dsy.repository.UserRepositoty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

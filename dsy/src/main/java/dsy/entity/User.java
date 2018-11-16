@@ -1,4 +1,4 @@
-package dsy.AllBean;
+package dsy.entity;
 
 import javax.persistence.*;
 
