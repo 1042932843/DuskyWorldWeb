@@ -6,14 +6,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping(value = "/user")
+@RequestMapping(value = "/homepage")
 public class UserController {
     @Autowired
     private UserService userService;
 
     @RequestMapping(value = "/index")
     public String index(){
-        return "user/index";
+        return "homepage/index";
     }
 
 }
